@@ -22,7 +22,7 @@ const SIgnIn = () => {
                     lastSignInTime: result.user?.metadata?.lastSignInTime
                 }
                 // update last sign in time
-                fetch('http://localhost:3000/users', {
+                fetch('https://coffee-store-server-eight-mu.vercel.app/users', {
                     method: 'PATCH',
                     headers: {
                         'content-type': 'application/json'

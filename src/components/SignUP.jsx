@@ -29,7 +29,7 @@ const SignUP = () => {
                 }
 
                 // save user to database
-                fetch('http://localhost:3000/users', {
+                fetch('https://coffee-store-server-eight-mu.vercel.app/users', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'
